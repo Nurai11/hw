@@ -14,6 +14,7 @@ public class Main {
         countries.put("RU", "Russia");
         System.out.println(countries);
 
+
         countries.putIfAbsent("UK", "United Kingdom");
 
         System.out.println(countries.get("UK"));
